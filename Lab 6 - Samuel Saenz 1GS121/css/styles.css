@@ -1,0 +1,108 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #CCD1D1;
+}
+
+/* Header*/
+header{
+
+    text-align: center;
+    background-color: #BFC9CA;
+    padding: 5px 5px ;
+
+}
+
+
+/* barra de navegacion*/
+.navbar{
+    width: 960px;
+    height: 45px;
+    background-color: black;
+    
+}
+    
+ ul{
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    list-style: none;
+    
+}
+    
+li{
+    float: left;
+    display: block;
+    padding: 15px 0;
+}
+
+li>a{
+        color: rgb(255, 255, 255);
+        font-family:cambria;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        border-right: 2px solid rgb(255, 255, 255);
+        text-transform: uppercase;
+        padding: 0 91px;
+        text-decoration: none;
+}
+
+
+/*Contenido*/
+
+.post{
+    
+    margin: 0;
+    padding: 10px;
+    /*float: left;*/
+    width: 936px;
+    background-color:#F4F6F7;
+    border: 3px solid black;
+        
+}
+
+.post-header{
+
+    text-align: center;
+
+}
+
+.post-body{
+    text-align: justify;
+}
+
+.subtitulo{
+    font-weight: bold;
+}
+
+img{
+    border: 2px solid;
+    padding: 2px 2px ;
+}
+
+p{
+    padding: 5px 5px ;
+
+}
+
+.contenedor{
+    padding: 0;
+    margin: 50px auto 0;
+    width: 960px;
+}
+
+fieldset{
+    text-align: center;
+    background-color:  #BFC9CA;
+    font-weight: bold;
+}
+
+.submitbutton{
+    padding: 10px 20px;
+    background-color: #E59866;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
